@@ -26,7 +26,13 @@ public enum JavaBaseImage {
     JAVA8("openjdk:8-jre", JavaVersion.VERSION_1_8),
     JAVA9("openjdk:9-jre", JavaVersion.VERSION_1_9),
     JAVA10("openjdk:10-jre", JavaVersion.VERSION_1_10),
-    JAVA11("openjdk:11-jre", JavaVersion.VERSION_11);
+    JAVA11("openjdk:11-jre", JavaVersion.VERSION_11),
+    JAVA12("openjdk:12-jre", JavaVersion.VERSION_12),
+    JAVA13("openjdk:13-jre", JavaVersion.VERSION_13),
+    JAVA14("openjdk:14-jre", JavaVersion.VERSION_14),
+    JAVA15("openjdk:15-jre", JavaVersion.VERSION_15),
+    JAVA16("openjdk:16-jre", JavaVersion.VERSION_16),
+    JAVA17("openjdk:17-jre", JavaVersion.VERSION_17);
 
     final String imageName;
     final JavaVersion target;
